@@ -1,0 +1,31 @@
+<sodium>
+	<prop ApplicationName="sodium App"/>
+	<prop ApplicationID="org.sodium.app"/>
+	<prop ApplicationVersion="0.0.1"/>
+	<prop ApplicationAuthor="sodium"/>
+	<prop ApplicationIcon="sodium.png"/>
+	<prop WindowTitle="Sodium App example"/>
+	<prop WindowIcon="sodium.png"/>
+	<window Width=800 Height=600>
+		<rect
+			X="0"
+			Y="0"
+			Width="100%"
+			Height="100%"
+			BackgroundColor="#1b1b1b"
+		/>
+		<button
+			Id="buttonhello-world"
+			X="10px"
+			Y="10px"
+			Width="150px"
+			Height="50px"
+			Margin="0px"
+			OnHover="Hover"
+			OnClick="Click"
+			OnPress="Press"
+			OffFocus="Offfocus"
+			BackgroundColor="#333333"
+		/>
+	</window>
+</sodium>
